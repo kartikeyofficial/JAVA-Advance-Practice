@@ -11,5 +11,13 @@ class Arrayutility {
             nums[i] = x.nextInt();
         }
         return nums;
+
     }
+    public static void displayArray(int[] nums){
+        for (int i=0;i<nums.length;i++){
+            System.out.print(i+" ");
+        }
+        System.out.println();
+    }
+
 }
