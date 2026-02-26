@@ -6,5 +6,13 @@ public class inheritanceTest {
        TwoWheelers two = new TwoWheelers();
        vehicle.commute();
        two.commute();
+       two.balance();
+       System.out.println(vehicle.toString());
+       System.out.println(vehicle.getClass());
+
+       MotorCycle motor = new MotorCycle();
+       motor.commute();
+       motor.start();
+       motor.balance();
     }
 }
