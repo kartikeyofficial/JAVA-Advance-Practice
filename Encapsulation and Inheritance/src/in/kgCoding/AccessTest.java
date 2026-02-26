@@ -1,6 +1,7 @@
 package in.kgCoding;
 
 public class AccessTest {
+
     static void main(String[] args) {
         Car car = new Car();
         car.color="Red";

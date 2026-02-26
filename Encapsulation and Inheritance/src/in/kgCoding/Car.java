@@ -26,4 +26,5 @@ public class Car {
                 ", costOfPurchase=" + costOfPurchase +
                 '}';
     }
+
 }
