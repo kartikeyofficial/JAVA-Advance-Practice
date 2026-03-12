@@ -1,4 +1,4 @@
-package in.KartikeyCoding.Exception;
+package in.KartikeyCoding.TryCatch;
 
 import java.util.Scanner;
 
@@ -14,12 +14,14 @@ public class Calculator {
             int result = first/second;
             System.out.println("result is: "+result);
         }
-        catch (ArithmeticException exception){
-            System.out.println("Divide by Zero, Please Enter The Valid Value!");
-            System.out.printf("\n%s ,Enter the Valid Values! ",exception.getMessage());
-        }
+//        catch (ArithmeticException exception){
+//            System.out.println("Divide by Zero, Please Enter The Valid Value!");
+//            System.out.printf("\n%s ,Enter the Valid Values! ",exception.getMessage());
+//        }
         catch (Throwable th){
-            System.out.println("Invalid Input!");
+            System.out.println("Invalid Input! ");
+            System.out.println(th.getStackTrace());
+            throw  th;
         }
 
     }
