@@ -5,9 +5,9 @@ import java.util.Collections;
 
 public class Utility {
     public static <E> void  print(Collection<E> collection){
-        System.out.println("Collection is: ");
+        System.out.print("\nCollection is: ");
         for (E coll: collection){
-            System.out.println(coll);
+            System.out.print(coll+" ");
         }
 
     }
