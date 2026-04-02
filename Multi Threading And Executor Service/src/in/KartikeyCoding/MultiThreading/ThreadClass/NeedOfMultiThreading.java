@@ -1,4 +1,4 @@
-package in.KartikeyCoding.MultiThreading;
+package in.KartikeyCoding.MultiThreading.ThreadClass;
 
 public class NeedOfMultiThreading {
     static void main(String[] args) {

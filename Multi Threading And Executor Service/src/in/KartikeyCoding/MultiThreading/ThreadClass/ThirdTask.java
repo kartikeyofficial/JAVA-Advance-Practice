@@ -1,4 +1,4 @@
-package in.KartikeyCoding.MultiThreading;
+package in.KartikeyCoding.MultiThreading.ThreadClass;
 
 public class ThirdTask extends Thread{
     @Override
