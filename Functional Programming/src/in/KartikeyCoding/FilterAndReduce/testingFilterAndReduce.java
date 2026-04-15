@@ -7,6 +7,11 @@ public class testingFilterAndReduce {
     static void main(String[] args) {
         List<String> fruits = List.of("Apple","Banana","Mango","Cherry","Date");
         System.out.println(fruits.size());
+        System.out.println("\nNormally For Loop Using:\n");
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+        System.out.println("\nUsing Stream Method and ForEach Method:\n");
         fruits.stream().forEach(new Consumer<String>() {
             @Override
             public void accept(String fruit) {
