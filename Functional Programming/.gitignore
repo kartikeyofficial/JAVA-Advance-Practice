@@ -22,6 +22,9 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+/.idea
+/.gitignore
+/Functional Programming.iml
 
 ### VS Code ###
 .vscode/
