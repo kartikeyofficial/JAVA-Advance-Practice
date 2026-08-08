@@ -10,12 +10,9 @@ public class ArraySearching {
         System.out.print("Enter the Number Do You Want to Search: ");
         int key = x.nextInt();
         for (int i=0;i<nums.length;i++){
-            if(nums[i]==key){
+            if(key==nums[i]){
                 System.out.println("That the Number "+key+" is Present at Index: "+i);
                
-            }
-            else {
-                System.out.println("That the Number "+key+" is not Present in Array");
             }
         }
     }
