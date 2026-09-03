@@ -2,6 +2,10 @@ package Revision.Control_Statement;
 
 public class DoWhile {
     static void main(String[] args) {
-        
+        int i=0;
+        do{
+            System.out.print(i+" ");
+            i++;
+        }while (i<10);
     }
 }
