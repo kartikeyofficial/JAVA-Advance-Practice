@@ -1,0 +1,9 @@
+package Revision.Control_Statement;
+
+public class forLoop {
+    static void main(String[] args) {
+        for (int i=1;i<=100;i++){
+            System.out.print(i+" ");
+        }
+    }
+}
