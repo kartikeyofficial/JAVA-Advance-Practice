@@ -11,7 +11,7 @@ public class Recursion {
         System.out.println("Factorial of The Number is: "+fact);
     }
     public static long factorial(int num){
-         if (num==1){
+         if (num==1){  // Base Case
             return 1;
          }
          return  num* factorial(num-1);
