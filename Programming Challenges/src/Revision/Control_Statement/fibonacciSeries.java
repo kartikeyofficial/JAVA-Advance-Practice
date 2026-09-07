@@ -15,7 +15,7 @@ public class fibonacciSeries {
     public static int fibonacci(int position){
         if (position==1){
             return 0;
-        }
+        } 
         if (position==2){
             return 1;
         }
