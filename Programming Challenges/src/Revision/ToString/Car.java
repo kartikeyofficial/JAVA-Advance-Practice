@@ -16,6 +16,9 @@ public class Car {
         this.modelNumber = modelNumber;
         this.company = company;
     }
+    public String toString(){
+        return "My Car name is: "+name;
+    } 
 
     static void main(String[] args) {
         Car swift = new Car(4,4,200,"Suzuki Swift","0987654321","Maruti");
