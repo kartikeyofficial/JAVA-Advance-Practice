@@ -10,5 +10,6 @@ public class ArrayToString {
             sb.append(str+" ");
         }
         System.out.println(sb);
+        
     }
 }
