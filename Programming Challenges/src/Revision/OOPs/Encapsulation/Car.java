@@ -15,4 +15,6 @@ public class Car {
     public String toString(){
         return ("Car color is: "+color+"\nCar model is: "+model+"\nCar Fuel Level is: "+fuelLevel+"\nCar Purchase Price: "+costOfPurchase);
     }
+
+
 }
