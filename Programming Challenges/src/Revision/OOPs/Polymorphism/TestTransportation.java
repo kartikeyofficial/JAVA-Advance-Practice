@@ -12,7 +12,7 @@ public class TestTransportation {
         casttest(veh);
     }
     public static void casttest(vehicle veh){  //Reference using abstract class
-        
+
         veh.start();
     }
 }
