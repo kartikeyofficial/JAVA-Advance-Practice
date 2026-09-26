@@ -15,12 +15,18 @@ public class Calculator {
             double result = num1/ num2;
             System.out.println("Result is: "+result);
 
-        }catch (ArithmeticException ie){
+        }
+        catch (ArithmeticException ie){
             System.out.println(ie.getMessage());
         }
         catch (ArrayIndexOutOfBoundsException ai){
             System.out.println(ai);
         }
-
+        catch (Throwable th){
+            System.out.println(th);
+        }
+        finally {
+            System.out.println("Finally Successful");
+        }
     }
 }
