@@ -1,4 +1,4 @@
-package Revision.FileHandling.ExceptionHandling;
+package Revision.ExceptionHandling;
 
 import java.util.Scanner;
 
